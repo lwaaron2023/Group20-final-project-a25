@@ -1,18 +1,33 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Components/Navbar'
-import Intro from './Pages/Intro'
-import GameMenu from './Pages/GameMenu'
-import About from './Pages/About'
-import SectionWrapper from './Components/SectionWrapper'
+import {BrowserRouter, Link, Route, Routes, Outlet} from "react-router-dom";
+import Game from "./Pages/Game.jsx";
+import Homepage from "./Pages/Homepage.jsx";
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <SectionWrapper id="welcome"><Intro></Intro></SectionWrapper>
-      <SectionWrapper id="games"><GameMenu></GameMenu></SectionWrapper>
-      <SectionWrapper id="about"><About></About></SectionWrapper>
+        <BrowserRouter>
+            <nav>
+                <Link to="/">Home</Link> |{" "}
+                <Link to="/game1">...</Link> |{" "}
+                <Link to="/game2">...</Link> |{" "}
+                <Link to="/game3">...</Link> |{" "}
+                <Link to="/game4">...</Link> |{" "}
+                <Link to="/game5">...</Link> |{" "}
+
+            </nav>
+            <Routes>
+                <Route path="/" element={<Homepage/>}/>
+                <Route path="/game1" element={<Game link={""} id={"game1"} key={"game1"} title={}/>}/>
+                <Route path="/game2" element={<Game link={""} id={"game2"} key={"game2"} title={}/>}/>
+                <Route path="/game3" element={<Game link={""} id={"game3"} key={"game3"} title={}/>}/>
+                <Route path="/game4" element={<Game link={""} id={"game4"} key={"game4"} title={}/>}/>
+                <Route path="/game5" element={<Game link={""} id={"game5"} key={"game5"} title={}/>}/>
+            </Routes>
+
+
+        </BrowserRouter>
     </div>
   )
 }
