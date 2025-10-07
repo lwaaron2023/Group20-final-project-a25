@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaadb749-3fe8-4059-9508-9f83f56adc4c" name="Changes" comment="Updated proposal and my readme.md" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="aaron" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lwaaron2023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lwaaron2023/Group20-final-project-a25.git&quot;,
+    &quot;accountId&quot;: &quot;4a6288a9-b822-4484-ad26-8c4c013c3284&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="33QomjQhw4FWvW31mcDVtneS4L4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github_projects/Group20-final-project-a25/serverSide/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github_projects\Group20-final-project-a25\serverSide\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github_projects\Group20-final-project-a25" />
+      <recent name="C:\github_projects\Group20-final-project-a25\serverSide\public\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaadb749-3fe8-4059-9508-9f83f56adc4c" name="Changes" comment="" />
+      <created>1759258817169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759258817169</updated>
+      <workItem from="1759258818517" duration="28000" />
+      <workItem from="1759260413230" duration="1346000" />
+      <workItem from="1759262957412" duration="651000" />
+      <workItem from="1759349809206" duration="73000" />
+      <workItem from="1759352020717" duration="1000" />
+      <workItem from="1759352141371" duration="2000" />
+      <workItem from="1759357841030" duration="135000" />
+      <workItem from="1759543123687" duration="1231000" />
+      <workItem from="1759601715209" duration="10533000" />
+      <workItem from="1759615443058" duration="71000" />
+      <workItem from="1759615532905" duration="12000" />
+      <workItem from="1759617132074" duration="382000" />
+      <workItem from="1759862497933" duration="1487000" />
+      <workItem from="1759864682767" duration="264000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added a .gitignore file">
+      <option name="closed" value="true" />
+      <created>1759260650405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759260650405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed my idea to battleship">
+      <option name="closed" value="true" />
+      <created>1759262120429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759262120429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Began creating the server to host the game">
+      <option name="closed" value="true" />
+      <created>1759544116250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759544116250</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Began creating the server to host the game">
+      <option name="closed" value="true" />
+      <created>1759544352204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759544352204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished game">
+      <option name="closed" value="true" />
+      <created>1759610068999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759610068999</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finished game and made it so that the server hosts all the files">
+      <option name="closed" value="true" />
+      <created>1759611267398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759611267398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated proposal and my readme.md">
+      <option name="closed" value="true" />
+      <created>1759611571897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759611571897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a .gitignore file" />
+    <MESSAGE value="Changed my idea to battleship" />
+    <MESSAGE value="Began creating the server to host the game" />
+    <MESSAGE value="Finished game" />
+    <MESSAGE value="Finished game and made it so that the server hosts all the files" />
+    <MESSAGE value="Updated proposal and my readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated proposal and my readme.md" />
+  </component>
+</project>
