@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import {BrowserRouter, Link, Route, Routes, Outlet} from "react-router-dom";
+import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Game from "./Components/Game.jsx";
 import Homepage from "./Components/Homepage.jsx";
 
@@ -54,7 +53,7 @@ function App() {
   return (
     <>
         <BrowserRouter>
-            <nav className={"m-10 p-10 bg-gray-500"} style={{width:`${window.innerWidth/2}px`, display:'flex', justifySelf: "center", justifyContent:'center', gap:'10px'}}>
+            <nav className={"m-10 p-10 bg-gray-500"} style={{width:`${window.innerWidth*.9}px`, display:'flex', justifySelf: "center", justifyContent:'center', gap:'10px'}}>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/">Home</Link>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/game1">{gameDataStorage[0]["name"]}</Link>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/game2">{gameDataStorage[1]["name"]}</Link>
