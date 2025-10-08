@@ -45,7 +45,7 @@ function App() {
             name: "Unscramble",
             author: "Aishwarya",
             thumbnail: "/thumbnail.png",
-            link: "",
+            link: "https://unscramble-word-game.onrender.com",
             description: "A word puzzle game where the user has to unscramble a series of letters to identify the real word. The goal of the game is to unscramble as many words as possible within 60 seconds. They can choose between different categories such as food, places, or animals. A score counter and timer will be on display and every word guessed is one point. If a word is guessed incorrectly the user can skip the word or try again. There will be a top 5 leaderboard to track points."
         }
 
@@ -63,7 +63,7 @@ function App() {
 
             </nav>
             <Routes>
-                <Route path="/" element={<Homepage/>}/>
+                <Route path="/" element={<Homepage gameDataStorage={gameDataStorage}/>}/>
                 <Route path="/game1" element={<Game link={gameDataStorage[0]["link"]} id={"game1"} key={"game1"} title={gameDataStorage[0]["name"]}/>}/>
                 <Route path="/game2" element={<Game link={gameDataStorage[1]["link"]} id={"game2"} key={"game2"} title={gameDataStorage[1]["name"]}/>}/>
                 <Route path="/game3" element={<Game link={gameDataStorage[2]["link"]} id={"game3"} key={"game3"} title={gameDataStorage[2]["name"]}/>}/>
