@@ -57,12 +57,12 @@ The main challenges faced throughout the entire project were:
 ## Responsabilites:
 
 1. Aaron Waller was responsible for:
-  - Creating the battleship game
-  - Creating the server.js file
-  - Building and deploying the project to Render
-  - Creating the routing within the web application that allowed for users to play the different games from the website
-  - Styling the webpages
-  - Creating the individual pages for the different games so that the games were iframes inside of the container websote
+  - Creating the battleship game.
+  - Creating the server.js file.
+  - Building and deploying the project to Render.
+  - Creating the routing within the web application that allowed for users to play the different games from the website.
+  - Styling the webpage that contained all the games.
+  - Creating the individual pages for the different games so that the games were iframes inside of the container websote.
 
 2. Benedict Antwi was responsible for:
   - Creating, styling and deploying the "1000 clicks in 10 minutes" game.
