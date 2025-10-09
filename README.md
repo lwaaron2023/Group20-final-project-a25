@@ -1,6 +1,12 @@
 # Group 20 Final Project
 
+**Deployment Link**
+
 https://group20-final-project-a25.onrender.com/
+
+**Repository Used In Deployment (contains server files and built files)**
+
+https://github.com/lwaaron2023/Group20-final-project-a25-production.git
 
 ## What we created:
 
