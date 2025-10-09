@@ -4,7 +4,7 @@
 
 https://group20-final-project-a25.onrender.com/
 
-**Repository for Deployment**
+**Repository Used In Deployment (contains server files and built files)**
 
 https://github.com/lwaaron2023/Group20-final-project-a25-production.git
 
