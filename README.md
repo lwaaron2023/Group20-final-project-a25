@@ -42,7 +42,7 @@ We used a variety of libraries and technologies including, but not limited to:
 3. Http was used for the server side experience
 4. Node js was used for the server side experience
 5. Websocket API was used to allow the server to establish ways of communicating with clients that allowed clients to communicate with each other.
-6. Tailwind CSS was used to style the webpages.
+6. Tailwind CSS and Styled Component was used to style the webpages.
 7. React was used to design and structure the webpages.
 8. Pug was used to render the webpages.
 9. React dom was used for inner-page routing.
@@ -66,6 +66,11 @@ The main challenges faced throughout the entire project were:
 
 2. Benedict Antwi was responsible for:
   - Creating, styling and deploying the "1000 clicks in 10 minutes" game.
+
+3. Tien Nguyen was responsible for:
+  - Created and styled a demo webpage.
+  - Styled the Home page
+  - Contribute game "Squish the cockroach"
 
 ## Accessibility features:
 
