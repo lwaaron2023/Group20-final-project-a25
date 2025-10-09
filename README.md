@@ -17,6 +17,16 @@ To rotate a ship before placement: press r with a ship selected
 
 To select a ship to place simply click on one of the boxes with the letter "0" in it, and the number of "0"s will dictate the length of the ship.
 
+### 1000 Click in 10 Minutes
+
+The controls are:
+
+To start the game, press the pink button. 
+To continue clicking, press the pink button to add points. 
+When you win (or lose), press the pink button to reset the game.
+When you have enough points, you can scroll below to (upgrades) to get more points per click
+
+
 ## Technologies used throughout the project
 
 We used a variety of libraries and technologies including, but not limited to:
@@ -47,6 +57,9 @@ The main challenges faced throughout the entire project were:
   - Creating the routing within the web application that allowed for users to play the different games from the website
   - Styling the webpages
   - Creating the individual pages for the different games so that the games were iframes inside of the container websote
+
+2. Benedict Antwi was responsible for:
+  - Creating, styling and deploying the "1000 clicks in 10 minutes" game.
 
 ## Accessibility features:
 
