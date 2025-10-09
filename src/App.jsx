@@ -1,6 +1,7 @@
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Game from "./Components/Game.jsx";
 import Homepage from "./Components/Homepage.jsx";
+import {useState} from "react";
 
 
 
@@ -12,6 +13,17 @@ import Homepage from "./Components/Homepage.jsx";
 
 
 function App() {
+
+    const [width, setWidth] = useState(window.innerWidth*.9);
+    const [height, setHeight] = useState(window.innerHeight*.9);
+
+    const handleResize = () => {
+        setWidth(window.innerWidth*.9);
+        setHeight(window.innerHeight);
+    }
+
+    window.addEventListener("resize", handleResize);
+
     const gameDataStorage = [
         {
             name: "Battleship",
@@ -52,8 +64,9 @@ function App() {
     ]
   return (
     <>
+        <div className="m-auto p-auto bg-gray-500" style={{height:`${height}px`}}>
         <BrowserRouter>
-            <nav className={"m-10 p-10 bg-gray-500"} style={{width:`${window.innerWidth*.9}px`, display:'flex', justifySelf: "center", justifyContent:'center', gap:'10px'}}>
+            <nav className={"m-10 p-10 bg-gray-300 border-1 rounded-xl"} style={{width:`${width}px`, display:'flex', justifySelf: "center", justifyContent:'center', gap:'10px'}}>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/">Home</Link>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/game1">{gameDataStorage[0]["name"]}</Link>
                 <Link className={"p-4 m-3 bg-gray-200 border-2 border-black rounded-xl"} to="/game2">{gameDataStorage[1]["name"]}</Link>
@@ -63,16 +76,17 @@ function App() {
 
             </nav>
             <Routes>
-                <Route path="/" element={<Homepage gameDataStorage={gameDataStorage}/>}/>
-                <Route path="/game1" element={<Game link={gameDataStorage[0]["link"]} id={"game1"} key={"game1"} title={gameDataStorage[0]["name"]}/>}/>
-                <Route path="/game2" element={<Game link={gameDataStorage[1]["link"]} id={"game2"} key={"game2"} title={gameDataStorage[1]["name"]}/>}/>
-                <Route path="/game3" element={<Game link={gameDataStorage[2]["link"]} id={"game3"} key={"game3"} title={gameDataStorage[2]["name"]}/>}/>
-                <Route path="/game4" element={<Game link={gameDataStorage[3]["link"]} id={"game4"} key={"game4"} title={gameDataStorage[3]["name"]}/>}/>
-                <Route path="/game5" element={<Game link={gameDataStorage[4]["link"]} id={"game5"} key={"game5"} title={gameDataStorage[4]["name"]}/>}/>
+                <Route path="/" element={<Homepage gameDataStorage={gameDataStorage} height={height}/>}/>
+                <Route path="/game1" element={<Game height={height*.8} width={width} link={gameDataStorage[0]["link"]} id={"game1"} key={"game1"} title={gameDataStorage[0]["name"]}/>}/>
+                <Route path="/game2" element={<Game height={height*.8} width={width} link={gameDataStorage[1]["link"]} id={"game2"} key={"game2"} title={gameDataStorage[1]["name"]}/>}/>
+                <Route path="/game3" element={<Game height={height*.8} width={width} link={gameDataStorage[2]["link"]} id={"game3"} key={"game3"} title={gameDataStorage[2]["name"]}/>}/>
+                <Route path="/game4" element={<Game height={height*.8} width={width} link={gameDataStorage[3]["link"]} id={"game4"} key={"game4"} title={gameDataStorage[3]["name"]}/>}/>
+                <Route path="/game5" element={<Game height={height*.8} width={width} link={gameDataStorage[4]["link"]} id={"game5"} key={"game5"} title={gameDataStorage[4]["name"]}/>}/>
             </Routes>
 
 
         </BrowserRouter>
+        </div>
     </>
   )
 }

@@ -4,7 +4,7 @@ const Game = (props) => {
 
     return (
     <>
-        <iframe src={props.link} width={window.innerWidth * .9} height={window.innerHeight*.9}  allowFullScreen style={{justifySelf:"center"}}/>
+        <iframe src={props.link} width={props.width} height={props.height} allowFullScreen style={{justifySelf:"center"}}/>
     </>
   )
 }

@@ -47,14 +47,14 @@ const StatLabel = styled.div`
   color: #c2c3c7;
 `
 
-const Homepage = ({gameDataStorage}) => {
+const Homepage = (props) => {
+    const gameDataStorage = props.gameDataStorage;
     const numOfGame = gameDataStorage.length;
     const authorsSet = new Set(); // count how many authors
-    
+
     for(const game of gameDataStorage) {
         authorsSet.add(game.author);
     }
-
     //calculating time
     const start = new Date("2025-09-28"); // September 1, 2025
     const now = new Date();
@@ -64,10 +64,10 @@ const Homepage = ({gameDataStorage}) => {
 
     return (
         <>
-        <Container>
+        <Container style={{'width': `${props.width}px`, 'justifySelf':'center'}}>
             <Header>
-                <MainTitle>GAME da HUB</MainTitle>
-                <Description>
+                <MainTitle style={{'color':'#07043C'}}>GAME da HUB</MainTitle>
+                <Description style={{'color':'#14116E'}}>
                     Welcome to our collaborative gaming universe! This is where our talented team showcases all the incredible
                     games we've created together. From indie adventures to innovative experiences, discover the passion and
                     creativity that drives our development journey.
@@ -76,16 +76,16 @@ const Homepage = ({gameDataStorage}) => {
 
             <StatsContainer>
                 <StatItem>
-                    <StatNumber>{numOfGame}+</StatNumber>
-                    <StatLabel>GAME CREATED</StatLabel>
+                    <StatNumber style={{'color':'#07043C'}}>{numOfGame}+</StatNumber>
+                    <StatLabel style={{'color':'#14116E'}}>GAME CREATED</StatLabel>
                 </StatItem>
                 <StatItem>
-                    <StatNumber>{authorsSet.size}</StatNumber>
-                    <StatLabel>TEAM MEMBERS</StatLabel>
+                    <StatNumber style={{'color':'#07043C'}}>{authorsSet.size}</StatNumber>
+                    <StatLabel style={{'color':'#14116E'}}>TEAM MEMBERS</StatLabel>
                 </StatItem>
                 <StatItem>
-                    <StatNumber>{diffYears.toFixed(1)}</StatNumber>
-                    <StatLabel>YEAR ACTIVE</StatLabel>
+                    <StatNumber style={{'color':'#07043C'}}>{diffYears.toFixed(1)}</StatNumber>
+                    <StatLabel style={{'color':'#14116E'}}>YEAR ACTIVE</StatLabel>
                 </StatItem>
             </StatsContainer>
         </Container>
