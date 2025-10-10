@@ -32,6 +32,9 @@ To continue clicking, press the pink button to add points.
 When you win (or lose), press the pink button to reset the game.
 When you have enough points, you can scroll below to (upgrades) to get more points per click
 
+### 1000 Click in 10 Minutes
+Click the start button to start the game
+You will have 10 seconds to click on the cockroach. You can save your name at the end of the game.
 
 ## Technologies used throughout the project
 
