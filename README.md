@@ -46,6 +46,7 @@ We used a variety of libraries and technologies including, but not limited to:
 7. React was used to design and structure the webpages.
 8. Pug was used to render the webpages.
 9. React dom was used for inner-page routing.
+10. For Trust AI : Used Svelte for the frontend and Node.js with Express for the backend. Real-time interaction between the player and AI is handled through WebSockets, making the gameplay smooth and responsive. MongoDB stores user and game data, and GitHub OAuth provides secure login. Trivia questions come from custom routes and external APIs like Open Trivia, Geo, and Stooq for variety. Sessions are managed with express-session, and the full app is deployed on Render.
 
 ## Challenges faced throughout the project:
 
@@ -53,6 +54,7 @@ The main challenges faced throughout the entire project were:
 
 1. Issues with adapting to the new libraries and technologies used in the project. Certain packages had a learning curve before we were comfortable using them.
 2. Coordination and communication in the group. Communicating with each other throughout the project proved to be problematic as lines of communication often broke done at critical moments.
+3. For Trust AI : The main challenges were keeping the real-time game smooth with WebSockets and managing session data correctly. It was also tricky to connect multiple APIs and make sure everything worked together in the Svelte app.
 
 ## Responsabilites:
 
@@ -72,17 +74,23 @@ The main challenges faced throughout the entire project were:
   - Styled the Home page
   - Contribute game "Squish the cockroach"
 
+4. Aditya Patel was reponsible for:
+  - Creating, styling and deploying the "Trust AI" game.
+  - Edited and Made the Final Video.
+  - Added Thumbnails
+
+5. Aishwarya Silam was reponsible for:
+  - Creating, styling and deploying the "Unscramble" game.
+
 ## Accessibility features:
 
 1. Using high constrast color schemes that did not rely soley on the color itself but rather the shades and hughes of colors to convey meaning
 2. Using colors that are easily distigishable for people with common types of color blindness (red-green, blue-purple, etc)
 3. Using shape and location of elements to convey information about them
-
-
+4. For Trust AI: The game includes several accessibility features to make it easy for everyone to play. All buttons and controls can be used with the keyboard using the Tab and Enter keys. The design uses a clear dark-on-light color scheme for better visibility and readable font sizes that adjust to any screen size. Each button and score element includes ARIA labels for screen readers, and visual highlights help players easily follow round changes and button selections.
 
 
 # Questions to answer, delete when submitting:
-
 
 1. A brief description of what you created, and a link to the project itself (two paragraphs of text)
 2. Any additional instructions that might be needed to fully use your project (login information, etc.)

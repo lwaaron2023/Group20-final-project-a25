@@ -3,15 +3,6 @@ import Game from "./Components/Game.jsx";
 import Homepage from "./Components/Homepage.jsx";
 import {useState} from "react";
 
-
-
-
-
-
-
-
-
-
 function App() {
 
     const [width, setWidth] = useState(window.innerWidth*.9);
@@ -49,14 +40,14 @@ function App() {
         {
             name: "Trust AI?!?!",
             author: "Aditya Patel",
-            thumbnail: "/thumbnail.png",
+            thumbnail: "/Trust.png",
             link: "https://ap-trust-ai.onrender.com",
-            description: "a web-based trivia bluff game, where trivia questions will be generated dynamically using AI so each round is unique. The AI opponent will give answers that may be true or bluff, based on its personality (Honest, Sneaky, or Chaotic). Players will see the question, the AI’s answer, their current score and round, and buttons to Trust or Call Bluff, along with power-ups like Fact Check and Double Down. Points are earned or lost based on correct decisions, and a final score is displayed at the end, creating an interactive challenge of knowledge and intuition."
+            description: "a web-based trivia bluff game, where trivia questions will be generated dynamically using AI so each round is unique. The AI opponent will give answers that may be true or bluff. Players will see the question, the AI’s answer, their current score and round, and buttons to Trust or Call Bluff, along with power-ups like Fact Check and Double Down. Points are earned or lost based on correct decisions, and a final score is displayed at the end, creating an interactive challenge of knowledge and intuition."
         },
         {
             name: "Unscramble",
             author: "Aishwarya",
-            thumbnail: "/thumbnail.png",
+            thumbnail: "/Aishu.png",
             link: "https://unscramble-word-game.onrender.com",
             description: "A word puzzle game where the user has to unscramble a series of letters to identify the real word. The goal of the game is to unscramble as many words as possible within 60 seconds. They can choose between different categories such as food, places, or animals. A score counter and timer will be on display and every word guessed is one point. If a word is guessed incorrectly the user can skip the word or try again. There will be a top 5 leaderboard to track points."
         }
