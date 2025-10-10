@@ -90,11 +90,3 @@ The main challenges faced throughout the entire project were:
 4. For Trust AI: The game includes several accessibility features to make it easy for everyone to play. All buttons and controls can be used with the keyboard using the Tab and Enter keys. The design uses a clear dark-on-light color scheme for better visibility and readable font sizes that adjust to any screen size. Each button and score element includes ARIA labels for screen readers, and visual highlights help players easily follow round changes and button selections.
 
 
-# Questions to answer, delete when submitting:
-
-1. A brief description of what you created, and a link to the project itself (two paragraphs of text)
-2. Any additional instructions that might be needed to fully use your project (login information, etc.)
-3. An outline of the technologies you used and how you used them.
-4. What challenges you faced in completing the project.
-5. What each group member was responsible for designing / developing.
-6. What accessibility features you included in your project.
